@@ -369,7 +369,7 @@ p.then(callback());
 - Promise.race([promises]).then((message) => {})
 
 ## 29. async function과 await-1
-async function 선언은 AsyncFunction 객체를 반환하는 하나의 비동기 함수를 정의, ES2017  
+`async function` 선언은 AsyncFunction 객체를 반환하는 하나의 비동기 함수를 정의, ES2017  
 암시적으로 Promise를 사용하여 결과를 반환합니다. 표준 동기 함수를 사용하는 것과 많이 비슷하다.
 - async function 함수이름() { }  
 const 함수이름 = async () => { }
