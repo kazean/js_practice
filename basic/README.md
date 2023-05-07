@@ -12,7 +12,7 @@
 chrome, VSCode
 - chapter1/clip3.js
 > console.log('Hello JavaScript');
->> (terminal)node clip3.jsㅈㅈ
+>> (terminal)node clip3.js
 
 ## 4. Expression Statement
 값을 만들어내는 간단한 코드를 표현식 이라고 합니다
@@ -92,7 +92,7 @@ function() {}
 
 ## 10. var와 호이스팅(var & hoisting)
 - Hoisting
-> ECMAScript 2015 언어 명세 맟 그 이전에 사용된 적이 없는 용어
+> ECMAScript 2015 언어 명세 및 그 이전에 사용된 적이 없는 용어
 >> example1,2.js
 아래 있는 선언을(만) 끌어올리는것(함수, 변수(var))
 
@@ -365,7 +365,7 @@ p.then(callback());
 - Promise.resolve(prmoise or value)
 > Promise 실행 또는 value 반환
 - Promise.reject()
-- Promise.all([promises]).then((messages) => {})s
+- Promise.all([promises]).then((messages) => {})
 - Promise.race([promises]).then((message) => {})
 
 ## 29. async function과 await-1
